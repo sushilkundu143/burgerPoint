@@ -1,0 +1,14 @@
+{
+    "product": {
+        "id": 1,
+        "name": "Burger",
+        "price": 50,
+        "item": 0
+    },
+    "ingradients": [
+        {"id": 1, "name": "Bun", "price": 40, "item": 0},
+        {"id": 2, "name": "Salad", "price": 30, "item": 0},
+        {"id": 3, "name": "Cheese Slices", "price": 40, "item": 0},
+        {"id": 4, "name": "Cutlets", "price": 30, "item": 0}
+    ]
+}

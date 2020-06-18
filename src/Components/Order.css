@@ -1,0 +1,41 @@
+.m-w {
+    min-width: 100px;
+}
+
+.m-1 {
+    margin: 0.25rem;
+}
+
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.paddingitem {
+    padding: 0 15px 0 0;
+}
+
+
+.d-flex {
+    display: flex;
+}
+.w-100 {
+    display: block;
+    width: 100%;
+}
+hr {
+    background-color: #999898;
+}
+.borderlineheading {
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem !important;
+    position: relative;
+}
+.borderlineheading:after {
+    position: absolute;
+    content: "";
+    width: 80px;
+    left: 0;
+    background-color: #d0cece;
+    height: 2px;
+    bottom: -8px;
+}

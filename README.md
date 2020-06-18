@@ -66,3 +66,16 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+
+
+Use Case:
+* User comes to a burger point and orders a burger
+* User can choose the ingredients for his burger. The ingredients are Bun, Salad, Cheese Slices and Cutlets
+* The app should have the following features
+* Order a burger with mix of ingredients.
+* List All ordered burgers along with price.
+* Create a service for burger price calculation and  total Sale
+* Search All burgers by Person name, total  total sale by person
+Sample Input may look like this
+Order Burger with the following option
