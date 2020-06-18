@@ -21,7 +21,6 @@ class List extends PureComponent {
             })
     }
     render() {
-        console.log('orders:', this.state.orders)
         const List = this.state.orders === null || this.state.orders.length === 0
             ? (
                 <tr rowSpan='4'>

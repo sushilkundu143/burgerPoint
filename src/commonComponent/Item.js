@@ -1,7 +1,6 @@
 import React from 'react'
 
 function Item(props) {
-    console.log('props:', props)
     return (
         <div className="columns is-vcentered is-mobile is-gapless">
             <div className="column is-5 d-flex">
