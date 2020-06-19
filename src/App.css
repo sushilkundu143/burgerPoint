@@ -6,3 +6,9 @@
 }
 .navbar-start {display: flex;}
 .navbar-item {color: white}
+
+@media screen and (max-width: 400px) {
+    .section {
+        padding: 2rem 0rem;
+    }
+}
