@@ -33,11 +33,7 @@ class List extends PureComponent {
                 <tr key={i}>
                     <td>{item.name}</td>
                     <td>{item.data.product.name}</td>
-                    <td>{item.data.ingradients.filter(x => {
-                        if(x.item > 0){
-                            return x
-                        }
-                    }).map(x => x.name).join(',')}</td>
+                    <td>{item.data.ingradients.filter(x =>  x.item > 0 && x).map(x => x.name).join(',')}</td>
                      <td>${item.total}</td>
                 </tr>
             )})
